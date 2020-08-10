@@ -1,4 +1,5 @@
 # Bindum-termux
+Doesn't work the first time\
 apt install git\
 pkg install python3\
 apt install python3\
