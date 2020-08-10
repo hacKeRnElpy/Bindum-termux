@@ -1,4 +1,5 @@
 import os
+os.system("clear")
 while True:
 	print('[1]Create bind')
 	choose=input('\n  [bindum] >> ')
@@ -13,3 +14,4 @@ while True:
 		f=open('/data/data/com.termux/files/usr/etc/bash.bashrc', 'a')
 		f.write('\n' + bid)
 		f.close
+		os.system("clear")
